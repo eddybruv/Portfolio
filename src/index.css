@@ -10,6 +10,9 @@
   --secondary-font: "Montserrat", sans-serif;
   --red-color: #ff014f;
   --color-lightn: #c4cfde;
+  --color-dark: #1a1d23;
+  --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
+  --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
 }
 
 * {
