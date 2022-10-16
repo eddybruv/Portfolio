@@ -42,7 +42,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <button className={style.button}>Love it</button>
+          <button className={style.button}>Resume</button>
         </section>
       </section>
     </header>
