@@ -1,0 +1,18 @@
+.body {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: var(--background-color-1);
+  box-shadow: var(--shadow-1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s ease;
+}
+
+.body:hover {
+  background: var(--color-dark);
+  transform: translateY(-7px);
+}
