@@ -18,13 +18,13 @@ const Hero = () => {
   ];
   const [textIndex, setTextIndex] = useState(0);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setTextIndex((textIndex) => textIndex + 1);
-  //   }, 4000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTextIndex((textIndex) => textIndex + 1);
+    }, 4000);
 
-  //   return () => clearInterval(interval);
-  // });
+    return () => clearInterval(interval);
+  });
 
   return (
     <section id="home" className={style.body}>
