@@ -18,13 +18,13 @@ const Hero = () => {
   ];
   const [textIndex, setTextIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTextIndex((textIndex) => textIndex + 1);
-    }, 4000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setTextIndex((textIndex) => textIndex + 1);
+  //   }, 4000);
 
-    return () => clearInterval(interval);
-  });
+  //   return () => clearInterval(interval);
+  // });
 
   return (
     <section id="home" className={style.body}>
@@ -48,9 +48,9 @@ const Hero = () => {
             </span>
           </h1>
           <p className={style.bio}>
-            I use animation as a third dimension by which to simplify
-            experiences and building thro each and every interaction. I’m not
-            adding motion just to spruce things up, but doing it in ways that.
+            I use animation as a third dimension to enhance interactions and
+            experiences. I’m not adding motion just to spruce things up, but
+            doing it in ways that.
           </p>
           <section className={style.lowerLeft}>
             <div className={style.connect}>
