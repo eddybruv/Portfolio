@@ -4,8 +4,9 @@
   display: flex;
   position: fixed;
   top: 0;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(120px);
   box-shadow: 0 3px 15px -9px black;
+  z-index: 3;
 }
 
 .navBar {
@@ -98,5 +99,8 @@
 @media only screen and (max-width: 1300px) {
   .navigation {
     display: none;
+  }
+  .navBar {
+    padding: 1rem;
   }
 }
